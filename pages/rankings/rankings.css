@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+}
+
+div{
+    overflow-x: hidden;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    font-family: "CWC", sans-serif, Arial, sans-serif;
+    margin: 0px;
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3vh 5vw;
+    position: sticky;
+    top: 0;
+    background-color: #00175f;
+    color: white;
+}
+
+.nav1{
+    display: flex;
+    width: 60%;
+    align-items: center;
+}
+
+.nav2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 70%;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.part {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.partimg {
+    height: 30px;
+}
+
+.mainheading{
+    padding: 5vh 5vw;
+    font-weight: bold;
+    color: white;
+    background-color: #00175f;
+    font-size: 30px;
+}
+
+footer{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.sponsers{
+    padding: 5vh 5vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.separator {
+    border-top: 1px solid #e0e0e0;
+    margin: 5vh 10vw;
+}
+
+.sponser{
+    width: 120px;
+}
+
+.copyright{
+    color: gray;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.rankings{
+    display: flex;
+    padding: 0 5vw;
+    gap: 25px;
+    overflow-x: auto;
+}
+
+.ranking-card {
+    min-width: 439px;
+    border-radius: 8px;
+}
+
+.ranking-header {
+    padding: 12px 16px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #2c3e50;
+    border-bottom: 3px solid #00a651;
+}
+
+.ranking-header span {
+    color: #0077cc;
+}
+
+.team {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+}
+
+.numberone{
+    height: 12vh;
+}
+
+.rank {
+    font-weight: bold;
+    width: 25px;
+    color: #555;
+}
+
+.flag {
+    width: 25px;
+    height: 15px;
+    border: 1px solid #ccc;
+}
+
+.name {
+    font-weight: bold;
+    color: #0b2240;
+}
+
+.points {
+    font-weight: bold;
+    color: #0b2240;
+}
+
+.change {
+    font-size: 12px;
+}
+
+.up {
+    color: #00a651;
+}
+
+.down {
+    color: red;
+}
+
+.fullrankings {
+    text-align: center;
+    padding: 12px;
+    background-color: #f8f9fa;
+    font-size: 13px;
+    font-weight: bold;
+    color: #00175f;
+}
+
+.heading {
+    padding: 5vh 5vw;
+    font-size: 35px;
+    font-weight: 800;
+    color: #00175f;
+}
+
+@media screen and (max-width:576px) {
+    .logo,
+    .nav2 {
+        display: none;
+    }
+
+    nav {
+        width: 100vw;
+        padding: 0;
+        justify-content: center;
+    }
+
+    ul {
+        width: 100vw;        
+        padding: 10px 0;
+        font-size: 13px;
+    }
+
+    .none{
+        display: none;
+    }
+    .line{
+        display: none;
+    }
+}

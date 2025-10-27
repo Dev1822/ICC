@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+}
+
+div {
+    overflow-x: hidden;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    font-family: "CWC", sans-serif, Arial, sans-serif;
+    margin: 0px;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3vh 5vw;
+    position: sticky;
+    top: 0;
+    background-color: #00175f;
+    color: white;
+}
+
+.nav1 {
+    display: flex;
+    width: 60%;
+    align-items: center;
+}
+
+.nav2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 70%;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.part {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.partimg {
+    height: 30px;
+}
+
+footer {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.sponsers {
+    padding: 5vh 5vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.separator {
+    border-top: 1px solid #e0e0e0;
+    margin: 5vh 10vw;
+}
+
+.sponser {
+    width: 120px;
+}
+
+.copyright {
+    color: gray;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.heading {
+    padding: 5vh 5vw;
+    font-weight: bold;
+    color: #00175f;
+    font-size: 30px;
+}
+
+.gender {
+    padding: 5vh 5vw;
+    display: flex;
+    color: gray;
+    gap: 20px;
+}
+
+.teams {
+    padding: 5vh 5vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 50px;
+}
+
+.team {
+    background-color: #00175f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 204px;
+    padding: 50px;
+    gap: 50px;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+button {
+    width: 100%;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid #dce1e5;
+    background-color: white;
+    color: #001861;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width:576px) {
+
+    .logo,
+    .nav2 {
+        display: none;
+    }
+
+    nav {
+        width: 100vw;
+        padding: 0;
+        justify-content: center;
+    }
+
+    ul {
+        width: 100vw;
+        padding: 10px 0;
+        font-size: 13px;
+    }
+
+    .none {
+        display: none;
+    }
+
+    .line {
+        display: none;
+    }
+}
