@@ -32,6 +32,7 @@ https://devpatel-iccclone.netlify.app/
 ---
 
 ## Project Structure
+```
 Marvel/
 │
 ├── pages/
@@ -52,7 +53,7 @@ Marvel/
 ├── styles.css
 │
 └── README.md
-
+```
 
 ---
 
